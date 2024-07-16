@@ -1,3 +1,4 @@
+import 'package:expense_tracker/app_view.dart';
 import 'package:flutter/material.dart';
 
 class MeinerApp extends StatelessWidget {
@@ -5,6 +6,6 @@ class MeinerApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const MeinerAppView();
   }
 }
